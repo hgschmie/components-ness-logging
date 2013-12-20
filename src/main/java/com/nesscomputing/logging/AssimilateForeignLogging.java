@@ -43,7 +43,7 @@ public final class AssimilateForeignLogging
     /**
      * Assimilate a small set of logging frameworks.
      */
-    public synchronized static void assimilate()
+    public static synchronized void assimilate()
     {
         if (assimilated) {
             return;
@@ -67,7 +67,7 @@ public final class AssimilateForeignLogging
     /**
      * Try to unassimilate the logging frameworks.
      */
-    public synchronized static void unassimilate()
+    public static synchronized void unassimilate()
     {
         SLF4JBridgeHandler.uninstall();
     }

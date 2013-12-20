@@ -114,7 +114,7 @@ public final class ConfigureStandaloneLogging
             }
         }
 
-		return configFile;
-	}
+        return configFile;
+    }
 }
 
