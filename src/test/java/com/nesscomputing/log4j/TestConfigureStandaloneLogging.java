@@ -20,8 +20,6 @@ import java.net.URL;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.nesscomputing.log4j.ConfigureStandaloneLogging;
-
 public class TestConfigureStandaloneLogging
 {
     @Test

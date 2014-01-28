@@ -18,14 +18,13 @@ package com.nesscomputing.log4j;
 
 import java.net.URL;
 
+import com.nesscomputing.log4j.testing.RecordingAppender;
+import com.nesscomputing.logging.Log;
+
 import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.nesscomputing.log4j.ConfigureStandaloneLogging;
-import com.nesscomputing.log4j.testing.RecordingAppender;
-import com.nesscomputing.logging.Log;
 
 public class TestMultipleAppenders
 {

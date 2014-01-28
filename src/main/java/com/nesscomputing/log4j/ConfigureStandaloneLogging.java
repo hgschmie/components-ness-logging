@@ -21,12 +21,12 @@ import static java.lang.String.format;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.nesscomputing.logging.Log;
+
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.helpers.Loader;
 import org.apache.log4j.xml.DOMConfigurator;
-
-import com.nesscomputing.logging.Log;
 
 /**
  * Configure standalone logging using log4j.

@@ -18,8 +18,9 @@ package com.nesscomputing.logging;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.nullValue;
 
-
 import java.net.URL;
+
+import com.nesscomputing.log4j.testing.RecordingAppender;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -28,9 +29,6 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-
-import com.nesscomputing.log4j.testing.RecordingAppender;
-import com.nesscomputing.logging.Log;
 
 
 public class TestErrorLogging
